@@ -20,11 +20,10 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">CityBuilderPrototype</div>
+        <div id="unity-build-title">Clash Variant</div>
       </div>
     </div>
     <script>
-      
       var canvas = document.querySelector("#unity-canvas");
 
       // Shows a temporary message banner/ribbon for a few seconds, or
@@ -53,16 +52,16 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/BUILD_DEV.loader.js";
+      var loaderUrl = buildUrl + "/Build_.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/BUILD_DEV.data",
-        frameworkUrl: buildUrl + "/BUILD_DEV.framework.js",
-        codeUrl: buildUrl + "/BUILD_DEV.wasm",
+        dataUrl: buildUrl + "/Build_.data.unityweb",
+        frameworkUrl: buildUrl + "/Build_.framework.js.unityweb",
+        codeUrl: buildUrl + "/Build_.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "CityBuilderPrototype",
-        productVersion: "0.1.1",
+        productName: "Clash Variant",
+        productVersion: "0.1.0",
         showBanner: unityShowBanner,
       };
 
