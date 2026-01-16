@@ -69,7 +69,6 @@
         var tg = null;
         if (window.Telegram && window.Telegram.WebApp) {
           tg = window.Telegram.WebApp;
-
           // Отключаем свайп вниз для закрытия приложения
           try {
             var eventData = JSON.stringify({ allow_vertical_swipe: false });
